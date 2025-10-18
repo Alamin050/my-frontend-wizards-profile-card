@@ -1,0 +1,142 @@
+/* ====== Reset & Base Styles ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* ====== Card Layout ====== */
+article[data-testid="test-profile-card"] {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article[data-testid="test-profile-card"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* ====== Avatar ====== */
+figure {
+  margin-bottom: 1rem;
+}
+
+img[data-testid="test-user-avatar"] {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00adb5;
+}
+
+/* ====== Name & Bio ====== */
+h2[data-testid="test-user-name"] {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+  color: #00adb5;
+}
+
+p[data-testid="test-user-bio"] {
+  font-size: 0.95rem;
+  color: #dcdcdc;
+  margin-bottom: 0.8rem;
+}
+
+/* ====== Time ====== */
+p[data-testid="test-user-time"] {
+  font-size: 0.85rem;
+  color: #a9a9a9;
+  margin-bottom: 1.2rem;
+}
+
+/* ====== Social Links (Icons) ====== */
+nav[data-testid="test-user-social-links"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1.2rem;
+}
+
+nav[data-testid="test-user-social-links"] a {
+  color: #00adb5;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav[data-testid="test-user-social-links"] a:hover,
+nav[data-testid="test-user-social-links"] a:focus {
+  color: #f5f5f5;
+  transform: scale(1.2);
+  text-shadow: 0 0 8px #00adb5, 0 0 15px #00adb5;
+}
+
+/* ====== Lists ====== */
+section {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+h3 {
+  color: #00adb5;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+/* ====== Responsive Layout ====== */
+@media (min-width: 700px) {
+  article[data-testid="test-profile-card"] {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 1.5rem;
+    max-width: 600px;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  img[data-testid="test-user-avatar"] {
+    width: 140px;
+    height: 140px;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  nav[data-testid="test-user-social-links"] {
+    justify-content: flex-start;
+  }
+}

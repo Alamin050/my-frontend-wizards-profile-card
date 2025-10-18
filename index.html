@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alamin Muhammad - Profile Card</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <article data-testid="test-profile-card">
+      <figure>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+          alt="Alamin Muhammad Avatar"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div class="content">
+        <header>
+          <h2 data-testid="test-user-name">Alamin Muhammad</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          A Frontend Developer obsessed with growth and lives in a tree 🌳
+        </p>
+
+        <!-- Human-readable Time -->
+        <p id="time" data-testid="test-user-time" aria-label="current time"></p>
+
+        <nav data-testid="test-user-social-links" aria-label="social links">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-twitter"
+          >
+            <i class="la la-twitter"></i>
+            
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-instagram"
+          >
+            <i class="la la-instagram"></i>
+          </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-facebook"
+          >
+            <i class="la la-facebook"></i>
+          </a>
+        </nav>
+
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Watching Anime</li>
+            <li>Winning</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Medicine</li>
+            <li>Liars</li>
+            <li>Mediocrity</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
