@@ -20,3 +20,4 @@ The task was to build an accessible, responsive **Profile Card** using semantic 
 1. Clone this repository:
    ```bash
    git clone https://github.com/Alamin050/my-frontend-wizards-profile-card.git
+2. Open index.html in browser
