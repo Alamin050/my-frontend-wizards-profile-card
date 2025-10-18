@@ -19,4 +19,4 @@ The task was to build an accessible, responsive **Profile Card** using semantic 
 ### ⚙️ How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Alamin050/PROFILECARD.git
+   [git clone https://github.com/Alamin050/PROFILECARD.git](https://github.com/Alamin050/my-frontend-wizards-profile-card.git)
