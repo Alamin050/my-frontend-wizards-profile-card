@@ -1,18 +1,22 @@
-# Frontend Wizards Internship — Stage 0 Task  
-## Profile Card Component
+# Frontend Wizard Stage 1 Task
 
-### 👤 About
-This is my Stage 0 submission for the **Frontend Wizards Internship**.  
-The task was to build an accessible, responsive **Profile Card** using semantic HTML, CSS, and vanilla JS — all elements containing specific `data-testid` attributes for automated testing.
+## 📄 Live Demo
+👉 [View on GitHub Pages](https://alamin050.github.io/my-frontend-wizards-profile-card/)
 
----
+## 🧩 Pages
+- **Home (Stage 0)** — index.html  
+- **About Me** — about.html  
+- **Contact Us** — contact.html  
 
-### 🧱 Features
-- Semantic HTML structure (`<article>`, `<section>`, `<nav>`, `<figure>`, etc.)
-- Responsive layout using Flexbox
-- Font Awesome social icons
-- Dynamic time display (updates automatically every minute)
-- Keyboard accessible links with visible focus states
+## ✨ Features
+- Semantic and accessible HTML  
+- Responsive design  
+- Contact form with validation  
+- Keyboard navigable  
+
+## 🛠️ Tools
+HTML | CSS | JavaScript | GitHub Pages
+
 
 ---
 
